@@ -1,3 +1,4 @@
+import Dependencies.scalaTest
 name := "Dz1-test6"
 
 version := "0.1"
@@ -8,7 +9,7 @@ lazy val data = project
 lazy val core = project
   .dependsOn(data)
   .settings (
-      libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.9"
+      libraryDependencies +=scalaTest
  )
 
 
