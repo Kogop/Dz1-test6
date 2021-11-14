@@ -14,7 +14,7 @@ lazy val core = project
  )
 
 
-lazy val app = project.dependsOn(data,core)
+lazy val app = project.dependsOn(data, core)
 
 lazy val root = (project in file("."))
   .aggregate(data, core, app)
