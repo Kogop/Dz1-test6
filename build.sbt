@@ -10,6 +10,7 @@ lazy val core = project
   .dependsOn(data)
   .settings (
       libraryDependencies +=scalaTest
+
  )
 
 
